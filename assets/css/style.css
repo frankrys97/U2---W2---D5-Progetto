@@ -12002,6 +12002,6 @@ footer {
   margin-inline: auto;
 }
 
-#banner {
-  width: 80%;
+#search:hover {
+  background-color: rgba(106, 106, 106, 0.595);
 }/*# sourceMappingURL=style.css.map */
