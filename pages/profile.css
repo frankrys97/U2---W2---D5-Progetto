@@ -1,0 +1,31 @@
+body {
+  background-color: #141414;
+  color: white;
+}
+
+.navbar-brand img {
+  width: 120px;
+  overflow: hidden;
+}
+
+main {
+  max-width: 600px;
+  margin-inline: auto;
+}
+
+#name::placeholder {
+  color: white;
+}
+
+#language {
+  width: 40%;
+  border-radius: 0;
+  color: white;
+}
+
+.btn-custom:active,
+.btn-custom:focus {
+  background-color: white !important;
+  color: black !important;
+  font-weight: bold;
+}

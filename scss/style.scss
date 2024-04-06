@@ -1,0 +1,44 @@
+@import "./partials/bootstrap-overrides.scss";
+
+body {
+  background-color: #141414;
+  color: white;
+}
+
+nav {
+  .navbar-brand img {
+    width: 120px;
+    overflow: hidden;
+  }
+
+  .dropdown-menu img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  .dropdown-toggle img {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+.form-select {
+  background-color: black;
+  border-radius: 2px;
+  color: white;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  background-color: rgba(106, 106, 106, 0.595);
+}
+
+footer a:hover {
+  background-color: rgba(106, 106, 106, 0.595);
+}
+
+footer {
+  max-width: 980px;
+  margin-top: 40px;
+  margin-inline: auto;
+}

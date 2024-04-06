@@ -1,0 +1,44 @@
+body {
+  background-color: white;
+}
+
+nav {
+  background-color: black;
+
+  .dropdown-menu img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  .dropdown-toggle img {
+    width: 40px;
+    height: 40px;
+  }
+  .navbar-brand img {
+    width: 120px;
+    overflow: hidden;
+  }
+}
+
+#settings {
+  max-width: 900px;
+  margin-inline: auto;
+}
+
+#cancel {
+  background-color: lightgray;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(0, 166, 255);
+}
+
+.image-profile img {
+  width: 40px;
+  height: 40px;
+}
+
+p {
+  margin-bottom: 0;
+}
